@@ -1,0 +1,45 @@
+body {
+font-family:Arial;
+color: #777;
+background-color: #777;
+font-size: 18px;
+}
+
+div, section {
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    padding: 50px 50px 50px 50px;
+}
+.wrapper {
+    margin: 10px 100px 10px 100px; 
+    background-color: #777;
+}
+
+/* .header, .nav {
+    margin: 10px 0px 10px 0px;
+} */
+.article {
+    background-color: #777;
+    color: aliceblue;
+    /* width:100%; */
+}
+
+.h, .p {
+    color: rgb(29, 28, 28);
+    /* width: 100%; */
+}
+.section {
+    float: left;
+    width: 30%;
+}
+.aside {
+    float: left
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

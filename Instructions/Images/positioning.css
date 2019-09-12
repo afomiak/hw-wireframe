@@ -1,0 +1,19 @@
+.practice{
+    width:100px;
+    height:100px;
+    background-color: blue;
+
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background: lightgrey;
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+.wrapper {
+    padding-left: 50px;
+}
